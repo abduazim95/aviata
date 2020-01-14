@@ -1,0 +1,18 @@
+.stepper {
+  .step {
+    font-size: 1rem;
+    padding: 0 5px;
+    height:25px;
+    line-height: 25px;
+    position: relative;
+    margin: 0.5rem 5px;
+    display: inline-block;
+    border-radius: 4px;
+    background: #e1e1e1;
+
+    &.active {
+      color: #fff;
+      background-color: #7fce05;;
+    }
+  }
+}

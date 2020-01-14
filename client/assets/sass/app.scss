@@ -1,0 +1,28 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~sweetalert2/src/sweetalert2';
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+@import 'commons.scss';
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+@import 'elements/stepper.scss';
+@import 'elements/checkbox.scss';
+
+@import 'components/Filter.scss';
+@import 'components/Flights.scss';
+
+html {
+  font-size: 12px;
+  font-family: Open Sans;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#app {
+  background-color: #d7d7d7;
+}

@@ -1,0 +1,119 @@
+.flights {
+
+  .carier_logo {
+    width: 21px;
+    height: 21px;
+    margin-right: 8px;
+  }
+  .carrier_name {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .price {
+    text-align: center;
+    span {
+      font-size: 2rem;
+      display: block;
+    }
+    small {
+      line-height: 16px;
+      font-size: 1rem;
+      color: #707276;
+    }
+  }
+
+  .choose-btn {
+    font-size: 1.5rem;
+  }
+
+  .add-luggage-btn {
+    background-color: #EAF0FA;;
+    color: #5763B3;
+    font-size: 1rem;
+    padding: 3px 8px;
+  }
+
+  .flight-itinerary {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .datetime {
+    text-align: center;
+    small {
+      font-size: 1rem;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  .layovers_duration {
+    font-size: 1rem;
+    color: #202123;
+  }
+
+  .datetime_date {
+    font-size: 2rem;
+  }
+
+  .refundable {
+    .fa-undo-alt {
+      font-size: 1rem;
+    }
+    .fa-undo-alt:after {
+      position: absolute;
+      content: '';
+      display: block;
+      border-top: 1px solid rgba(0,0,0,.87);;
+      transform: rotate(-45deg);
+      height: 17px;
+      width: 17px;
+      left: 18px;
+      top: 18px;
+    }
+  }
+
+  .layovers_stops {
+    font-size: 1rem;
+    color: #FF9900;
+  }
+
+  .layovers_line {
+    border-bottom: 1px solid #B9B9B9;
+    display: block;
+    width: 100%;
+    position: relative;
+
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      border: 1px solid #98A6B3;
+      background: #fff;
+      top: -2px;
+      z-index: 2;
+    }
+
+    &::after {
+      right: 0;
+    }
+  }
+
+  .footer-link {
+    font-size: 1rem;
+    border-bottom: 1px dashed black;
+    text-decoration: none;
+    color: #0058d0;
+  }
+
+  .luggage-service {
+    small {
+      font-size: 1rem;
+    }
+  }
+
+}
